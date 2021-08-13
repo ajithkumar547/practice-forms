@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #col{
+                color: #0059ffe7;
+            }
+            #gen{
+                margin-top: 15px;
+                padding: 7px;
+            }
+            #genral{
+                margin-top: 6px;
+                width: 300px;
+                padding: 7px;
+            }
+        </style>
+    </head>
+    <body>
+        <form style="margin-left: 200px;"> 
+            <label for="fname"><b>First Name *</b></label><br>
+            <input type="text" id="genral" name="fname" value="your first name" ><br><br>
+            <label for="lname"><b>Last Name *</b></label><br>
+            <input type="text" id="genral" name="lname" value="your last name"> <br> <br>
+            <label for="mail"><b>Email *</b></label><br>
+            <input type="text" id="genral" name="mail" value="your email address"><br><br>
+            <label for="address"><b>Address</b></label><br>
+            <textarea name="address" rows="5" id="genral">your postal address</textarea><br><br>
+            <label for="city" ><b>City</b></label><br>
+            <input type="text" id="genral" name="city" value="City"><br><br>
+            <label for="pincode"><b>Zip Code</b></label><br>
+            <input name="pincode" id="genral" value="Zip Code" type="tel" ><br><br>
+            <label for="state"><b>State</b></label><br>
+            <select id="genral" name="city" style="background-color: lightgray;">
+                <option>Tamil Nadu</option>
+                <option>Kerala</option>
+                <option>Karnataka</option>
+                <option>Andhra Pradhesh</option>
+                <option>Orissa</option>
+                <option>Bihar</option>
+            </select><br><br>
+            <label for="country"><b>Country</b></label><br>
+            <select id="genral" name="country" style="background-color: lightgray;">
+                <option>India</option>
+                <option>China</option>
+                <option>Bangladesh</option>
+                <option>Nepal</option>
+                <option>Sri lanka</option>
+            </select><br><br>
+            <label for="rpack"><b>Registration Package</b></label><br>
+            <input name="rpack" id="gen" type="radio">
+            <label id="genral"> Dtandard Registration ($50 USD)</label><br>
+            <input type="radio" id="gen" name="rpack">
+            <label id="genral">Premium Registration ($90 USD)</label><br>
+            <input type="radio" id="gen" name="rpack">
+            <label id="genral">Corporate Registration ($200 USD)</label><br><br>
+            <input id="gen" type="checkbox">
+            <label>I have read and agree to the <ins id="col">Terms of Service</ins>and <ins id="col">Privacy Policy</ins></label><br><br>
+            <input type="submit" value="Confirm" id="genral" style="text-align: center;width: 700px;background-color: blue;color: white;">
+        </form>
+    </body>
+</html>
